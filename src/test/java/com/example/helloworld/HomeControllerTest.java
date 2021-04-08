@@ -11,7 +11,7 @@ public class HomeControllerTest {
 
     @Test
     public void home() {
-         org.junit.Assert.assertEquals("index", homeController.home());
-         assertNotNull(homeController);
+        org.junit.Assert.assertEquals("index", homeController.home());
+        assertNotNull(homeController);
     }
 }
